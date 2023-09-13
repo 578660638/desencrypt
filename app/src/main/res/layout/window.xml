@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center_horizontal"
+    android:background="@drawable/dialog_toast_bg"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/pkgname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="pkgname"/>
+
+
+    <Switch
+        android:id="@+id/frida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="frida 持久模式"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+    <Switch
+        android:id="@+id/frida1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="frida 监听模式"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+    <Switch
+        android:id="@+id/dump_File"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="脱壳"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/Call_process"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="函数调用流程"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+    <Switch
+        android:id="@+id/Call_process1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="smail 调用流程"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+</LinearLayout>
